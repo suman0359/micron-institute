@@ -1,0 +1,44 @@
+
+
+.secondary-nav{
+	z-index: 10;
+}
+
+.secondary-vav{
+	background:  #001451;
+}
+
+.secondary-nav .navbar-fixed-top{
+	background: #001451;
+}
+
+#navbar-secondary .navbar-nav li a{
+	color: #fff;
+}
+
+#navbar .navbar-nav{
+	min-height: 88px;
+	position: relative;
+    padding-top: 18px;
+    padding-left: 10px;
+}
+
+.primary-nav .navbar-header #logo{
+	width: 250px;
+}
+.primary-nav .navbar-header #logo img{
+	padding-top: 10px;
+	width: 100%;
+}
+
+.primary-nav{
+	margin-top: 42px;
+	border-top: solid #f4f4f4;
+	background-color: #fff;
+    -moz-box-shadow: 0 2px 5px rgba(50,50,50,.4);
+    -webkit-box-shadow: 0 2px 5px rgba(50,50,50,.4);
+    box-shadow: 0 2px 5px rgba(50,50,50,.4);
+
+}
+
+
