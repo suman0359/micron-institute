@@ -1,4 +1,11 @@
+/* My Custom Style CSS Framework */
+.float--left{
+    float: left;
+}
 
+.float--right{
+    float: right;
+}
 
 .secondary-nav{
 	z-index: 10;
@@ -41,4 +48,20 @@
 
 }
 
+/*Image Slider*/
+#slider{
+    height: 500px;
+}
 
+#slider .carousel-inner .item img{
+    height: 600px;
+}
+
+@media screen and (min-width: 768px){
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+    width: 30px;
+    height: 30px;
+    margin-top: 45px;
+    font-size: 30px;
+}
+}
