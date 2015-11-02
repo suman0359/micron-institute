@@ -111,6 +111,10 @@ ul.nav.tab-content li span.glyphicon{
     margin-top: 5px;
 }
 
+ul.nav.nav-tabs li.active{
+
+}
+
 
 /* ------------------- */
 
@@ -152,7 +156,25 @@ div#micron_speciality .header h1, div#news_announcement .header h1{
     color: #001451;
 }
 
-#news_slide #owl-demo .item .news-list h1{
+.news_slide #owl-demo .item .news-list{
+    background: #ddd;
+    padding: 5px;
+}
+
+.news_slide #owl-demo .item .news-list h4{
     padding-top: 0;
     margin-top: 0;
+}
+
+.news_slide #owl-demo .item .news-list img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+.news_slide #owl-demo .item .news-list p{
+    text-align: justify;
+    color: #001451;
 }
