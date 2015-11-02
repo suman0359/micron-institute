@@ -1,0 +1,158 @@
+/* My Custom Style CSS Framework */
+.float--left{
+    float: left;
+}
+
+.float--right{
+    float: right;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #90eb07;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: #fff;
+    background-color: #90eb07;
+   /* background-color: #001451; */
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: #080808;
+}
+
+.secondary-nav{
+	z-index: 10;
+}
+
+.secondary-vav{
+	background:  #001451;
+}
+
+.secondary-nav .navbar-fixed-top{
+	background: #001451;
+}
+
+#navbar-secondary .navbar-nav li a{
+	color: #fff;
+}
+
+#navbar .navbar-nav{
+	min-height: 88px;
+	position: relative;
+    padding-top: 18px;
+    padding-left: 10px;
+}
+
+
+.nav.navbar-nav.auth li a{
+    margin-top: 5px;
+    border: 1px solid #fff;
+    padding: 5px 15px;
+    border-radius: 3px;
+}
+
+.nav.navbar-nav.auth li.active a{
+    background: #90eb07;
+    -webkit-box-shadow: 1px 2px 15px 0.3px rgba(110,186,23,0.99);
+    -moz-box-shadow: 1px 2px 15px 0.3px rgba(110,186,23,0.99);
+    box-shadow: 1px 2px 15px 0.3px rgba(110,186,23,0.99); 
+}
+
+.nav.navbar-nav.auth li a:hover{
+    background: #90eb07;
+}
+
+.nav.navbar-nav.auth li a:last-child{
+    margin-left: 10px;
+}
+
+/* ------------------------- */ 
+
+.primary-nav .navbar-header #logo{
+	width: 250px;
+}
+.primary-nav .navbar-header #logo img{
+	padding-top: 10px;
+	width: 100%;
+}
+
+.primary-nav{
+	margin-top: 42px;
+	border-top: solid #f4f4f4;
+	background-color: #fff;
+    -moz-box-shadow: 0 2px 5px rgba(50,50,50,.4);
+    -webkit-box-shadow: 0 2px 5px rgba(50,50,50,.4);
+    box-shadow: 0 2px 5px rgba(50,50,50,.4);
+
+}
+
+/* Why Choose Micron */
+#micron_speciality{
+    background: #d5ddde;
+    padding-bottom: 25px;
+}
+#micron_speciality .image img{
+    width: 100%;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    background-color: #bcd4d6;
+}
+
+ul.nav.tab-content{
+    margin-left: 20px;
+}
+ul.nav.tab-content li span.glyphicon{
+    margin-left: -25px;
+    padding-right: 10px;
+    margin-top: 5px;
+}
+
+
+/* ------------------- */
+
+#collapse .panel-group .panel .panel-heading{
+    background: rgb(145,164,164);
+}
+
+/*Image Slider*/
+#slider{
+    min-height: 500px;
+}
+
+#slider .carousel-inner .item img{
+    height: 600px;
+}
+
+@media screen and (min-width: 768px){
+    .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+        width: 30px;
+        height: 30px;
+        margin-top: 45px;
+        font-size: 30px;
+    }
+}
+
+/* Owl Carousol */
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* News and Announcement */
+
+div#micron_speciality .header h1, div#news_announcement .header h1{
+    color: #001451;
+}
+
+#news_slide #owl-demo .item .news-list h1{
+    padding-top: 0;
+    margin-top: 0;
+}
