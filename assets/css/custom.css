@@ -7,6 +7,34 @@
     float: right;
 }
 
+.margin__bottom--5{
+    margin-bottom: 5px !important;
+}
+
+.margin__bottom--0{
+    margin-bottom: 0;
+}
+
+.padding__bottom--5{
+    padding-bottom: 5px !important;
+}
+
+.padding__bottom--0{
+    padding-bottom: 0;
+}
+
+.full-width{
+    width: 100%;
+}
+
+
+/* OverWrite Bootstrap CSS*/ 
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: rgb(1, 65, 83);
+}
+
+
+
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
     color: #fff;
     background-color: #90eb07;
@@ -16,6 +44,14 @@
     color: #fff;
     background-color: #90eb07;
    /* background-color: #001451; */
+}
+
+input:not([type='radio']), textarea, select {
+    /* width: 283px; */
+    height: 38px;
+    border: 1px solid #898989;
+    padding: 0px 0px 0px 15px;
+    margin: 0px 50px 25px 0px;
 }
 
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
@@ -178,3 +214,18 @@ div#micron_speciality .header h1, div#news_announcement .header h1{
     text-align: justify;
     color: #001451;
 }
+
+/* My Sign And Sign Up Modal Stylesheet */
+.login-content label {
+    width: 100%;
+    padding-top: 8px;
+} 
+
+.col-md-7.login_reg_button .col-md-6:first-child{
+    padding-left: 0;
+}
+
+.col-md-7.login_reg_button .col-md-6:last-child{
+    padding-right: 0;
+}
+
