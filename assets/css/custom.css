@@ -10,10 +10,12 @@
 
 
 body {
-        font-family: 'Lato', serif;
-        font-size: 14px;
-        background-color: #A7C4CC !important;
-      }
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333333;
+    background-color: #ffffff;
+}
 
 .float--left{
     float: left;
@@ -351,7 +353,7 @@ div#micron_speciality .header h1, div#news_announcement .header h1{
 footer{
     color: #b0b0b0;
     
-    min-height: 400px;
+    min-height: 500px;
     position: relative;
     background: url('../../images/subtle_white_mini_waves.png');
 
@@ -359,10 +361,19 @@ footer{
 
 }
 
-footer .footer-logo h1{
-    color: #fff;
-    padding-bottom: 10px;
+footer .footer-logo-top{
+    height: 250px;
     border-bottom: 1px dotted #ccc;
+    margin-bottom: 15px;
+}
+
+footer .footer-logo h1{
+    color: #93CA3A;
+    padding-bottom: 10px;
+}
+
+footer .footer-logo img{
+    width: 250px;
 }
 
 footer .copyright_wrap {
@@ -378,10 +389,138 @@ footer .copyright_wrap {
     bottom: 0;
 }
 
+ul.footer-nav li a{
+    color: #afafaf;
+}
+
+ul.footer-nav li i{
+    margin-right: 10px;
+}
+
 ul.footer-nav{
     list-style-type: none;
     padding-left: 0;
 }
+
+
+/* Contact Page StyleSheet */ 
+
+section{
+    padding: 80px 0;
+}
+#page-heading {
+    margin-top: 115px;
+    background-image: url(../../images/heading-bg.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 80px 0px;
+}
+
+#page-heading h1 {
+    margin-top: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+#page-heading span {
+    font-family: 'Gerogia', serif;
+    font-size: 17px;
+    font-style: italic;
+    color: #afafaf;
+}
+
+/* ----------------------------- */
+
+.contact-form #contact_form input {
+    border: 2px solid #e5e5e5;
+    margin-bottom: 25px;
+    width: 100%;
+    padding-left: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #888888;
+    height: 40px;
+    outline: none;
+}
+
+.contact-form #contact_form textarea {
+    border: 2px solid #e5e5e5;
+    margin-bottom: 25px;
+    width: 100%;
+    max-width: 100%;
+    min-height: 200px;
+    max-height: 240px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #888888;
+    height: 40px;
+    padding: 12px 15px;
+    outline: none;
+}
+
+.accent-button a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ffffff;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    padding: 0px 15px;
+    background-color: #93CA3A;
+    border-radius: 3px;
+    letter-spacing: 0.5px;
+}
+
+.contact-form .right-info h4 {
+    margin-top: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.contact-form .right-info .line-dec {
+    margin: 20px 0px;
+    width: 45px;
+    height: 2px;
+    background-color: #93CA3A;
+}
+
+.contact-form .right-info ul {
+    padding: 0;
+    margin-top: 30px;
+    list-style: none;
+}
+
+.contact-form .right-info ul li {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    margin: 12px 0px;
+    color: #888888;
+}
+
+.contact-form .right-info ul li i {
+    color: #373636;
+    margin-right: 10px;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+}
+
+/* ========================================================================== */
 
 /*Extra Small Media Query for custom Css Framework*/
 @media(max-width:767px){
