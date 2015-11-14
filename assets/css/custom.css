@@ -1,5 +1,14 @@
 /* My Custom Style CSS Framework */
 
+/*
+@media(max-width:767px){}
+@media(min-width:768px){}
+@media(min-width:992px){}
+@media(min-width:1200px){}
+*/
+
+
+
 body {
         font-family: 'Lato', serif;
         font-size: 14px;
@@ -12,6 +21,10 @@ body {
 
 .float--right{
     float: right;
+}
+
+.float--none{
+    float: none;
 }
 
 .margin__bottom--5{
@@ -36,24 +49,41 @@ body {
 
 .half-width{
     width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.primary__virtical-center{
+    min-height: 5em;
+    position: relative;
+}
+
+.child__virtical-center{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+}
+
 
 
 /* OverWrite Bootstrap CSS*/ 
 .nav>li>a:focus, .nav>li>a:hover {
-    background-color: rgb(1, 65, 83);
+    background-color: rgb(153, 204, 83);
 }
 
 
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
     color: #fff;
-    background-color: #99CC00;
+    background-color: #93CA3A;
 }
 
 .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
     color: #fff;
-    background-color: #99CC00;
+    background-color: #93CA3A;
    /* background-color: #001451; */
 }
 
@@ -67,7 +97,7 @@ input:not([type='radio']), textarea, select {
 
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
     color: #fff;
-    background-color: #99CC00;
+    background-color: #93CA3A;
 }
 
 .secondary-nav{
@@ -75,11 +105,11 @@ input:not([type='radio']), textarea, select {
 }
 
 .secondary-vav{
-	background:  #001451;
+	background:  #303030;
 }
 
 .secondary-nav .navbar-fixed-top{
-	background: #001451;
+	background: #303030;
 }
 
 #navbar-secondary .navbar-nav li a{
@@ -96,25 +126,31 @@ input:not([type='radio']), textarea, select {
 
 .nav.navbar-nav.auth li a{
     margin-top: 5px;
-    border: 1px solid #fff;
+    border: 1px solid #303030;
     padding: 5px 15px;
     border-radius: 3px;
 }
 
 .nav.navbar-nav.auth li.active a{
-    background: #99CC00;
+    background: #93CA3A;
     -webkit-box-shadow: 1px 2px 15px 0.3px rgba(110,186,23,0.99);
     -moz-box-shadow: 1px 2px 15px 0.3px rgba(110,186,23,0.99);
     box-shadow: 1px 2px 15px 0.3px rgba(110,186,23,0.99); 
 }
 
 .nav.navbar-nav.auth li a:hover{
-    background: #99CC00;
+    background: #93CA3A;
 }
 
 .nav.navbar-nav.auth li a:last-child{
     margin-left: 10px;
 }
+
+.navbar-toggle {
+    background: #303030;
+}
+
+
 
 /* ------------------------- */ 
 
@@ -139,9 +175,22 @@ input:not([type='radio']), textarea, select {
 
 /* Why Choose Micron */
 #micron_speciality{
-    background: #d5ddde;
+    background: #303030;
     padding-bottom: 25px;
 }
+
+div#micron_speciality .header .paragraph p{
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+#micron_speciality #tab{
+    padding-left: 20px;
+    background: #f4f4f4;
+    min-height: 260px;
+    margin-left: -15px;
+}
+
 #micron_speciality .image img{
     width: 100%;
 }
@@ -159,16 +208,14 @@ ul.nav.tab-content li span.glyphicon{
     margin-top: 5px;
 }
 
-ul.nav.nav-tabs li.active{
-
+ul.nav.nav-tabs{
+    padding-top: 15px;
 }
 
 
 /* ------------------- */
 
-#collapse .panel-group .panel .panel-heading{
-    background: rgb(145,164,164);
-}
+
 
 /*Image Slider*/
 #slider{
@@ -198,10 +245,15 @@ ul.nav.nav-tabs li.active{
   height: auto;
 }
 
+
+
 /* News and Announcement */
+div#news_announcement{
+    background: #F4F4F4;
+}
 
 div#micron_speciality .header h1, div#news_announcement .header h1{
-    color: #001451;
+    color: #93CA3A;
 }
 
 .news_slide #owl-demo .item .news-list{
@@ -245,6 +297,16 @@ div#micron_speciality .header h1, div#news_announcement .header h1{
     border-top: 1px solid #000;
     display: block;
     min-height: 60px;
+}
+
+.news_slide #owl-demo .item .news-list a h4{
+    background: #303030;
+    padding: 5px;
+    color: #fff;
+}
+
+.news_slide #owl-demo .item .news-list a.short-description{
+    text-decoration: none;
 }
 
 .news_slide #owl-demo .item .news-list .news-list-footer p{
@@ -315,3 +377,49 @@ footer .copyright_wrap {
     width: 100%;
     bottom: 0;
 }
+
+ul.footer-nav{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/*Extra Small Media Query for custom Css Framework*/
+@media(max-width:767px){
+    .xs__float--left{
+    float: left;
+    }
+
+    .xs__float--right{
+        float: right;
+    }
+
+    .xs__float--none{
+    float: none;
+    }
+}
+
+/* --------------------------------- */ 
+
+@media(min-width:768px){
+    .sm__float--left{
+    float: left;
+    }
+
+    .sm__float--right{
+        float: right;
+    }
+
+    .sm__float--none{
+    float: none;
+    }
+}
+
+/* --------------------------------- */ 
+
+@media(min-width:992px){}
+
+/* --------------------------------- */ 
+
+@media(min-width:1200px){}
+
+/* --------------------------------- */ 
