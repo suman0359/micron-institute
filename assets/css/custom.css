@@ -405,7 +405,7 @@ ul.footer-nav{
 
 /* Contact Page StyleSheet */ 
 
-section{
+section.contact-form{
     padding: 80px 0;
 }
 #page-heading {
