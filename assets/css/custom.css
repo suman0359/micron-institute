@@ -17,6 +17,17 @@ body {
     background-color: #ffffff;
 }
 
+/* color code */
+
+.grey {
+    background-color: #edecf0;
+}
+
+.white {
+    background-color: #ffffff;
+}
+
+/* =========================== */
 .float--left{
     float: left;
 }
@@ -53,6 +64,13 @@ body {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.page-title h1 {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
 }
 
 .primary__virtical-center{
@@ -373,6 +391,34 @@ div#micron_speciality .header h1, div#news_announcement .header h1{
     transform: rotate(90deg);
 }
 
+/* BreadCrums */
+
+#breadcrumb{
+    margin-top: 170px;
+}
+
+.page-title {
+    position: relative;
+    display: block;
+    padding: 35px 0;
+    border-top: 1px solid #dedde1;
+    border-bottom: 1px solid #dedde1;
+}
+
+.breadcrumb {
+    background-color: transparent;
+    border-radius: 0;
+    font-size: 12px;
+    list-style: outside none none;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.breadcrumb > li{
+    display: inline-block;
+}
+
+
 /* Footer StyleSheet */
 
 footer{
@@ -554,7 +600,7 @@ section.contact-form{
 
 
 .white.section{
-    margin-top: 200px;
+    margin-top: 30px;
 }
 .course-list {
     margin-bottom: 30px;
@@ -636,10 +682,161 @@ section.contact-form{
     text-decoration: none !important;
 }
 
+/* Single Course view */
+
+#single_course{
+    margin-top: 200px;
+}
+
+#course-left-sidebar {
+    margin-bottom: 30px;
+}
+
+.course-meta {
+    padding: 15px 20px 10px;
+    background-color: #3f4451;
+    margin-top: 0;
+}
+
+.course-image-widget img {
+    width: 100%;
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.course-meta p {
+    display: inline-block;
+    padding-right: 4px;
+    padding-bottom: 0;
+    font-size: 13px;
+}
+
+.course-meta p, .course-meta a {
+    line-height: 1;
+    color: #ffffff;
+}
+
+.course-meta hr {
+    background: #626774;
+    border-color: #121724;
+    height: 1px;
+    margin-bottom: 6px;
+    margin-top: 6px;
+}
+
+.course-meta .rating {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.course-meta p {
+    display: inline-block;
+    padding-right: 4px;
+    padding-bottom: 0;
+    font-size: 13px;
+}
+.course-meta p, .course-meta a {
+    line-height: 1;
+    color: #ffffff;
+}
+.course-meta p {
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.course-prize i {
+    font-size: 16px;
+    padding: 3px 2px 0;
+}
+
+.course-instructors img {
+    width: 20px;
+    margin: 0 8px;
+}
+
+.course-button .btn {
+    border-radius: 0;
+    padding: 10px 20px;
+}
+
+.btn-primary {
+    background-color: #5ba5af;
+    color: #ffffff !important;
+    border-color: #5ba5af;
+}
+
+.course-description small {
+    font-weight: 600;
+    margin-right: 20px;
+    font-size: 13px;
+}
+
+.course-description .course-title {
+    font-size: 24px;
+}
+
+.feedbacks .btn {
+    padding: 10px;
+}
+
+.well {
+    background-color: #edecf0;
+    border-radius: 0;
+    padding: 30px;
+    border: 1px solid #dedde1;
+}
+
+.media:first-child {
+    margin-top: 0;
+}
+
+.media, .media-body {
+    overflow: hidden;
+    zoom: 1;
+}
+
+.media-left, .media-right, .media-body {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.media-left, .media > .pull-left {
+    padding-right: 10px;
+}
+
+.media, .media-body {
+    overflow: hidden;
+    zoom: 1;
+}
+
+.course-table .fa-check {
+    background-color: #92CD00;
+    color: #ffffff;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.course-table .fa-close {
+    background-color: #FF0000;
+    color: #ffffff;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
 
 /* ========================================================================== */
 footer {
-    background-image: url(../../images/footer-bg.jpg);
+    background: #3f4451;
+    /*background-image: url(../../images/footer-bg.jpg);*/
     padding: 70px 0px;
 }
 
@@ -709,6 +906,7 @@ footer .recent-posts .recent-item img {
     border-radius: 5px;
     max-width: 100%;
 }
+
 
 footer .subscribe-us input[class='email'] {
     background-image: url(../images/mail-icon.png);
