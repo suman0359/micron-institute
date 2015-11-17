@@ -143,7 +143,7 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li><a href="#about">About</a></li>
+                            <li><a href="about_us.php">About</a></li>
                             <li><a href="#contact">Instructor</a></li>
                             <!-- <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Our Course <span class="caret"></span></a>

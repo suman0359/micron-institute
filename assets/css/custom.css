@@ -595,6 +595,68 @@ section.contact-form{
     margin-bottom: 80px;
 }
 
+/* About Page StyleSheet */
+
+.carousel-inner {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+}
+
+.carousel-control.right {
+    left: auto;
+    right: 0;
+}
+
+.carousel-control .fa {
+    background-color: rgba(0, 0, 0, 0.9);
+    font-size: 24px;
+    padding: 0.7em;
+    position: absolute;
+    top: 50%;
+    transition: all 0.35s ease-in-out 0s;
+    z-index: 5;
+}
+
+
+.carousel-control .fa:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.carousel-control .fa-angle-left, .carousel-control .fa-angle-right {
+    transform: translate(0px, -50%);
+}
+.carousel-control .fa-angle-left {
+    left: 0;
+}
+
+.widget-title {
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.content-widget .widget-title {
+    margin-bottom: 20px;
+}
+
+.content-widget .widget-title h4 {
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.content-widget hr, .footer hr {
+    border-color: #93CA3A;
+    margin: 0;
+    border-width: 2px;
+    width: 45px;
+}
+
 
 /* Courses List */
 
