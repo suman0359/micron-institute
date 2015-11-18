@@ -229,7 +229,7 @@ input:not([type='radio']), textarea, select {
 /* Why Choose Micron */
 #micron_speciality{
     background: #303030;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
 }
 
 div#micron_speciality .header .paragraph p{
@@ -739,6 +739,7 @@ section.contact-form{
 
 .white.section{
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 .course-list {
     margin-bottom: 30px;

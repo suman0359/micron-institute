@@ -160,7 +160,7 @@
                     <div class="col-md-12">
                         <div class="content-widget">
                             <div class="widget-title">
-                                <h4>Meet Our Team</h4>
+                                <h4>Meet Our INSTRUCTORS</h4>
                                 <hr>
                             </div>
                             <div class="team-members row">

@@ -411,7 +411,9 @@
                                 <a title="Read More" href="course-single.html"><span class="fa fa-search"></span></a>
                             </div><!-- end buttons -->
                         </div><!-- end relative -->
-                    </div></div><div class="owl-item cloned" style="width: 273.75px; margin-right: 15px;"><div class="owl-featured">
+                    </div>
+                    </div>
+                    <div class="owl-item cloned" style="width: 273.75px; margin-right: 15px;"><div class="owl-featured">
                         <div class="shop-item-list entry">
                             <div class="">
                                 <img src="upload/course_02.png" alt="">
