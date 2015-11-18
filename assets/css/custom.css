@@ -300,7 +300,14 @@ ul.nav.nav-tabs{
     margin: 0;
     width: 100%;
     padding: 0;
+    letter-spacing: 0px;
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: relative;
+    line-height: 1.6 !important;
+    color: #363a47;
+    
 }
+
 
 .accordion-toggle-2 .panel-heading h3 i {
     background-color: #202830 !important;
@@ -309,8 +316,8 @@ ul.nav.nav-tabs{
     line-height: 20px;
     font-size: 11px;
     position: absolute;
-    right: 10px;
-    top: 75px;
+    right: -10px;
+    top: 1px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
