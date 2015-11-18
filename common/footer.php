@@ -68,7 +68,7 @@
             </div>
             <div class="copyright_wrap">
                 <div class="content_wrap">
-                    <p> CopyRight © 2015. Micron Training Institute All Rights Reserved. <a href="#">Terms of use</a> and <a href="#">Privacy Policy</a></p>
+                    <p> CopyRight © 2015. <strong>Micron Training Institute</strong> All Rights Reserved. <a href="#">Terms of use</a> and <a href="#">Privacy Policy</a></p>
                 </div>
             </div>
         </footer>

@@ -45,7 +45,7 @@
                     <div class="container">
                         <div id="navbar-secondary" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
                             <div class="row">
-                                <div class="col-md-4">
+                                <div class="col-md-3">
 
                                     <div class="social-icons">
                                         <ul>
@@ -59,9 +59,13 @@
 
                                 </div>
 
-                                <div class="col-md-4"></div>
+                                <div class="col-md-6">
+                                    <div class="center-nav text-center">
+                                        <h3>This Web Site is Under Construction</h3>
+                                    </div>
+                                </div>
 
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                     <ul class="nav navbar-nav auth float--right">
                                         <li class="active"><a href="#" data-toggle="modal" data-target="#myLoginModal">
                                                 Sign In
@@ -86,7 +90,7 @@
                         </button>
 
                         <div id="logo">
-                            <a class="logo" href="#">
+                            <a class="logo" href="index.php">
                                 <img src="images/logo.png" alt="Micron Training Instititue Logo">
                             </a>
                         </div>
@@ -94,7 +98,7 @@
                     <div id="navbar" class="navbar-collapse collapse float--right  xs__float--none" aria-expanded="false" style="height: 1px;">
                         <ul class="nav navbar-nav">
                             <li class="active"><a href="index.php">Home</a></li>
-                            <li class="dropdown mega-menu"><a href="course-list.html" data-toggle="dropdown" class="dropdown-toggle">Courses <b class="fa fa-angle-down"></b></a>
+                            <li class="dropdown mega-menu"><a href="course_list.php" data-toggle="dropdown" class="dropdown-toggle">Courses <b class="fa fa-angle-down"></b></a>
                                 <ul class="dropdown-menu">
                                     <li>
                                         <div class="mega-menu-content">
@@ -143,8 +147,9 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li><a href="about_us.php">About</a></li>
-                            <li><a href="#contact">Instructor</a></li>
+                            <li><a href="#academics.php">Academics</a></li>
+                            <li><a href="#gallery.php">Galleries</a></li>                            <li><a href="about_us.php">About Us</a></li>
+                            <li><a href="#blog.php">Blog</a></li>
                             <!-- <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Our Course <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
