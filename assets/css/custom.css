@@ -17,15 +17,6 @@ body {
     background-color: #ffffff;
 }
 
-/* color code */
-
-.grey {
-    background-color: #edecf0;
-}
-
-.white {
-    background-color: #ffffff;
-}
 
 /* =========================== */
 .float--left{
@@ -90,22 +81,7 @@ body {
 
 
 /* OverWrite Bootstrap CSS*/ 
-.nav>li>a:focus, .nav>li>a:hover {
-    background-color: rgb(153, 204, 83);
-}
 
-
-
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-    color: #fff;
-    background-color: #93CA3A;
-}
-
-.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
-    color: #fff;
-    background-color: #93CA3A;
-    /* background-color: #001451; */
-}
 
 input:not([type='radio']), textarea, select {
     /* width: 283px; */
@@ -115,14 +91,9 @@ input:not([type='radio']), textarea, select {
     margin: 0px 50px 25px 0px;
 }
 
-.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
-    color: #fff;
-    background-color: #93CA3A;
-}
 
-.navbar-inverse{
-    border-color: #ccc;
-}
+
+
 
 /* ======================================================== */
 
@@ -130,17 +101,8 @@ input:not([type='radio']), textarea, select {
     z-index: 10;
 }
 
-.secondary-nav{
-    background:  #303030;
-}
 
-.secondary-nav .navbar-fixed-top{
-    background: #303030;
-}
 
-#navbar-secondary .navbar-nav li a{
-    color: #fff;
-}
 
 .secondary-nav .center-nav h3{
     color: #fff;
@@ -158,29 +120,15 @@ input:not([type='radio']), textarea, select {
 
 .nav.navbar-nav.auth li a{
     margin-top: 5px;
-    border: 1px solid #303030;
     padding: 5px 15px;
     border-radius: 3px;
 }
 
-.nav.navbar-nav.auth li.active a{
-    background: #93CA3A;
-    -webkit-box-shadow: 1px 2px 15px 0.3px rgba(110,186,23,0.99);
-    -moz-box-shadow: 1px 2px 15px 0.3px rgba(110,186,23,0.99);
-    box-shadow: 1px 2px 15px 0.3px rgba(110,186,23,0.99); 
-}
-
-.nav.navbar-nav.auth li a:hover{
-    background: #93CA3A;
-}
 
 .nav.navbar-nav.auth li a:last-child{
     margin-left: 10px;
 }
 
-.navbar-toggle {
-    background: #303030;
-}
 
 #navbar-secondary .social-icons ul {
     padding: 0;
@@ -198,10 +146,8 @@ input:not([type='radio']), textarea, select {
     width: 26px;
     height: 26px;
     display: inline-block;
-    border: 1px solid #b3b3b3;
     line-height: 26px;
     text-align: center;
-    color: #afafaf;
     border-radius: 50%;
     font-size: 12px;
 }
@@ -219,17 +165,17 @@ input:not([type='radio']), textarea, select {
 
 .primary-nav{
     margin-top: 42px;
-    border-top: solid #f4f4f4;
-    background-color: #fff;
-    -moz-box-shadow: 0 2px 5px rgba(50,50,50,.4);
-    -webkit-box-shadow: 0 2px 5px rgba(50,50,50,.4);
-    box-shadow: 0 2px 5px rgba(50,50,50,.4);
 }
+
+
 
 /* Why Choose Micron */
 #micron_speciality{
-    background: #303030;
     padding-bottom: 10px;
+}
+
+.header{
+    padding: 5px;
 }
 
 div#micron_speciality .header .paragraph p{
@@ -248,9 +194,6 @@ div#micron_speciality .header .paragraph p{
     width: 100%;
 }
 
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
-    background-color: #bcd4d6;
-}
 
 ul.nav.tab-content{
     margin-left: 20px;
@@ -271,7 +214,8 @@ ul.nav.nav-tabs{
     border-radius: 0 !important;
     box-shadow: none;
 }
-.accordion-toggle-2 .panel, .accordion-toggle-2 .panel-heading {
+.accordion-toggle-2 .panel, 
+.accordion-toggle-2 .panel-heading {
     background-color: #fff;
     border-color: #dadadc;
     border-bottom: 1px solid #dadadc;
@@ -347,12 +291,21 @@ ul.nav.nav-tabs{
     height: 600px;
 }
 
-@media screen and (min-width: 768px){
-    .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+@media (min-width: 768px) {
+    .carousel-control .glyphicon-chevron-left, 
+    .carousel-control .glyphicon-chevron-right, 
+    .carousel-control .icon-next, 
+    .carousel-control .icon-prev {
         width: 30px;
         height: 30px;
         margin-top: 45px;
         font-size: 30px;
+    }
+
+    .half-width{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 
@@ -369,16 +322,8 @@ ul.nav.nav-tabs{
 
 
 /* News and Announcement */
-div#news_announcement{
-    background: #F4F4F4;
-}
-
-div#micron_speciality .header h1, div#news_announcement .header h1{
-    color: #93CA3A;
-}
 
 .news_slide #owl-demo .item .news-list{
-    background: #fff;
     padding: 10px;
 }
 
@@ -397,7 +342,6 @@ div#micron_speciality .header h1, div#news_announcement .header h1{
 
 .news_slide #owl-demo .item .news-list p{
     text-align: justify;
-    color: #001451;
 }
 
 /* My Sign And Sign Up Modal Stylesheet */
@@ -421,9 +365,7 @@ div#micron_speciality .header h1, div#news_announcement .header h1{
 }
 
 .news_slide #owl-demo .item .news-list a h4{
-    background: #303030;
     padding: 5px;
-    color: #fff;
 }
 
 .news_slide #owl-demo .item .news-list a.short-description{
@@ -1194,6 +1136,19 @@ footer .subscribe-us .check-box input[type="checkbox"]:checked + label {
     .xs__float--none{
         float: none;
     }
+
+    .secondary-nav .navbar-collapse.collapse{
+        display: block;
+    }
+
+    .primary-nav .navbar-header #logo {
+        width: 140px;
+        height: 80px;
+    }
+
+    .navbar-toggle.collapsed{
+        margin-top: 20px;
+    }
 }
 
 /* --------------------------------- */ 
@@ -1209,6 +1164,10 @@ footer .subscribe-us .check-box input[type="checkbox"]:checked + label {
 
     .sm__float--none{
         float: none;
+    }
+
+    .primary-nav .navbar-header #logo {
+        width: 140px;
     }
 }
 

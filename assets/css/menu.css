@@ -1,3 +1,10 @@
+.secondary-nav .nav>li {
+    display: inline-block;
+}
+
+.secondary-nav .nav.navbar-nav{
+    margin-top: 0;
+}
 
 .navbar-nav .mega-menu ul.dropdown-menu{
 	padding: 20px 30px;

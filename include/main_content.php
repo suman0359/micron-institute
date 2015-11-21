@@ -4,13 +4,13 @@
             <div id="micron_speciality">
                 <div class="container-fluid">
                     <div class="header">
-                        <div class="half-width primary__virtical-center clearfix text-center">
+                        <div class="col-sm-12 col-xs-12 primary__virtical-center clearfix text-center">
                             <h1 class="child__virtical-center">Why You Choose Micron</h1>
 
                         </div>
 
 
-                        <div class="text-center paragraph half-width">
+                        <div class="text-center paragraph col-sm-12 col-xs-12">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde perferendis vitae quibusdam nihil aliquid temporibus, esse, fugiat maiores iusto, maxime eos voluptatibus ipsa assumenda, odio possimus in! Voluptas, corporis, alias.</p>
                         </div>
 

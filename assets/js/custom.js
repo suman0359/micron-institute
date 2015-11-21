@@ -1,5 +1,23 @@
 $(document).ready(function () {
 
+    // //JavaScript live width and height display in my dimension id
+    // window.onresize = displayWindowSize;
+    //     window.onload = displayWindowSize;
+
+    //     function displayWindowSize() {
+    //         myWidth = window.innerWidth;
+    //         myHeight = window.innerHeight;
+    //         // your size calculation code here
+    //         document.getElementById("dimensions").innerHTML = myWidth + "x" + myHeight;
+    //     };
+
+    // //JavaScript live width and height display in my dimension id
+    // $(window).resize(function() {
+    // $("#dimensions").html($(window).width());
+    // }).resize();
+
+    // ================================================= //
+
     $("#owl-demo").owlCarousel({
         autoPlay: 3000, //Set AutoPlay to 3 seconds
 

@@ -20,11 +20,15 @@
 
         <link rel="stylesheet" href="assets/css/menu.css" />
 
+        <link rel="stylesheet" type="text/css" href="assets/css/color.css">
+
         <link rel="stylesheet" href="assets/owl-carousel/owl.carousel.css">
         <link rel="stylesheet" href="assets/owl-carousel/owl.transitions.css">
         <link rel="stylesheet" href="assets/owl-carousel/owl.theme.css">
 
         <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+        <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 
 
 
@@ -45,7 +49,7 @@
                     <div class="container">
                         <div id="navbar-secondary" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
                             <div class="row">
-                                <div class="col-md-3">
+                                <div class="col-md-3 col-sm-4 col-xs-6">
 
                                     <div class="social-icons">
                                         <ul>
@@ -59,13 +63,13 @@
 
                                 </div>
 
-                                <div class="col-md-6">
+                                <div class="col-md-6 col-sm-4 col-xs-6 hidden-xs">
                                     <div class="center-nav text-center">
-                                        <h3>This Web Site is Under Construction</h3>
+                                        <h3 id="dimensions">This Web Site is Under Construction</h3>
                                     </div>
                                 </div>
 
-                                <div class="col-md-3">
+                                <div class="col-md-3 col-sm-4 col-xs-6">
                                     <ul class="nav navbar-nav auth float--right">
                                         <li class="active"><a href="#" data-toggle="modal" data-target="#myLoginModal">
                                                 Sign In
