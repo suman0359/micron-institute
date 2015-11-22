@@ -11,21 +11,17 @@
 
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    line-height: 1.428571429;
-    color: #333333;
-    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    font-weight:300;
+    /*font-size: 14px;
+    line-height: 1.428571429;*/
 }
 
 /* color code */
 
-.grey {
-    background-color: #edecf0;
-}
 
-.white {
-    background-color: #ffffff;
-}
 
 /* =========================== */
 .float--left{
@@ -90,34 +86,13 @@ body {
 
 
 /* OverWrite Bootstrap CSS*/ 
-.nav>li>a:focus, .nav>li>a:hover {
-    background-color: rgb(153, 204, 83);
-}
 
-
-
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-    color: #fff;
-    background-color: #93CA3A;
-}
-
-.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
-    color: #fff;
-    background-color: #93CA3A;
-    /* background-color: #001451; */
-}
 
 input:not([type='radio']), textarea, select {
     /* width: 283px; */
     height: 38px;
-    border: 1px solid #898989;
     padding: 0px 0px 0px 15px;
     margin: 0px 50px 25px 0px;
-}
-
-.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
-    color: #fff;
-    background-color: #93CA3A;
 }
 
 .navbar-inverse{
@@ -128,18 +103,6 @@ input:not([type='radio']), textarea, select {
 
 .secondary-nav{
     z-index: 10;
-}
-
-.secondary-nav{
-    background:  #303030;
-}
-
-.secondary-nav .navbar-fixed-top{
-    background: #303030;
-}
-
-#navbar-secondary .navbar-nav li a{
-    color: #fff;
 }
 
 .secondary-nav .center-nav h3{

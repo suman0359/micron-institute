@@ -20,11 +20,16 @@
 
         <link rel="stylesheet" href="assets/css/menu.css" />
 
+        <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/color.css">
+
         <link rel="stylesheet" href="assets/owl-carousel/owl.carousel.css">
         <link rel="stylesheet" href="assets/owl-carousel/owl.transitions.css">
         <link rel="stylesheet" href="assets/owl-carousel/owl.theme.css">
-
+    
+        <link rel="stylesheet" type="text/css" href="assets/fontello/css/fontello.css">
         <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
 
 
 
@@ -109,7 +114,7 @@
                                                             <li><a href="course_list.php">Courses List</a></li>
                                                             <li><a href="course-grid.html">Courses Grid</a></li>
                                                             <li><a href="course-filterable.html">Courses Filterable</a></li>
-                                                            <li><a href="single_course.php">Single Course</a></li>
+                                                            <li><a href="course_details.php">Course Details</a></li>
                                                             <li><a href="course-quiz.html">Take a Quiz</a></li>
                                                             <li><a href="course-achievements.html">Achievements</a></li>
                                                         </ul>

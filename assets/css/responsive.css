@@ -1,0 +1,55 @@
+ 
+/* Small Mobile Device */
+@media(max-width:767px){
+	.container{
+		width: 100%;
+	}
+
+	#slider .carousel-inner .item img {
+	    height: 280px;
+	}
+
+	#slider {
+	    min-height: 280px;
+	    margin-top: 125px;
+	}
+
+	.half-width{
+		width: 100%;
+	}
+
+	.header h1{
+		font-size: 26px;
+	}
+
+	.subscribe-us{
+		padding-bottom: 20px;
+	}
+
+	
+}
+
+/* Small Mobile Device */
+@media(min-width:768px){
+	.contact-form{
+		padding-bottom: 20px;
+	}
+}
+
+/* Small Mobile Device */
+@media(min-width:992px){
+	.half-width{
+	    width: 50%;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+}
+
+/* Small Mobile Device */
+@media(min-width:1200px){
+	.half-width{
+	    width: 50%;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+}

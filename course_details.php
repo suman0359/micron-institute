@@ -2,7 +2,7 @@
 
 include 'common/header.php';
 
-include 'include/single_course.php';
+include 'include/course_details.php';
 
 include 'common/footer.php';
 ?>
