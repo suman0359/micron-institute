@@ -121,29 +121,19 @@ input:not([type='radio']), textarea, select {
 
 .nav.navbar-nav.auth li a{
     margin-top: 5px;
-    border: 1px solid #303030;
     padding: 5px 15px;
     border-radius: 3px;
 }
 
-.nav.navbar-nav.auth li.active a{
-    background: #93CA3A;
-    -webkit-box-shadow: 1px 2px 15px 0.3px rgba(110,186,23,0.99);
-    -moz-box-shadow: 1px 2px 15px 0.3px rgba(110,186,23,0.99);
-    box-shadow: 1px 2px 15px 0.3px rgba(110,186,23,0.99); 
+div.box ul li h4{
+    margin: 0;
 }
 
-.nav.navbar-nav.auth li a:hover{
-    background: #93CA3A;
-}
 
 .nav.navbar-nav.auth li a:last-child{
     margin-left: 10px;
 }
 
-.navbar-toggle {
-    background: #303030;
-}
 
 #navbar-secondary .social-icons ul {
     padding: 0;

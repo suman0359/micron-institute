@@ -103,7 +103,8 @@
                     <div id="navbar" class="navbar-collapse collapse float--right  xs__float--none" aria-expanded="false" style="height: 1px;">
                         <ul class="nav navbar-nav">
                             <li class="active"><a href="index.php">Home</a></li>
-                            <li class="dropdown mega-menu"><a href="course_list.php" data-toggle="dropdown" class="dropdown-toggle">Courses <b class="fa fa-angle-down"></b></a>
+                            <li class="dropdown mega-menu">
+                            <a href="course_list.php" data-toggle="dropdown" class="dropdown-toggle">Courses <b class="fa fa-angle-down"></b></a>
                                 <ul class="dropdown-menu">
                                     <li>
                                         <div class="mega-menu-content">
@@ -111,7 +112,8 @@
                                                 <div class="col-md-6">
                                                     <div class="box">
                                                         <ul>
-                                                            <li><a href="course_list.php">Courses List</a></li>
+                                                            <li class="title"><h4>Web Design & Development</h4></li>
+                                                            <li><a href="course_list.php">PHP</a></li>
                                                             <li><a href="course-grid.html">Courses Grid</a></li>
                                                             <li><a href="course-filterable.html">Courses Filterable</a></li>
                                                             <li><a href="course_details.php">Course Details</a></li>
@@ -152,7 +154,18 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li><a href="#academics.php">Academics</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Academics <b class="fa fa-angle-down"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Admission Process</a></li>
+                                    <li><a href="#">Result Published</a></li>
+                                    <li><a href="#">Notice Board</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li class="dropdown-header">Course Instructor</li>
+                                    <li><a href="#">Separated link</a></li>
+                                    <li><a href="#">One more separated link</a></li>
+                                </ul>
+                            </li>
                             <li><a href="#gallery.php">Galleries</a></li>                            <li><a href="about_us.php">About Us</a></li>
                             <li><a href="#blog.php">Blog</a></li>
                             <!-- <li class="dropdown">
