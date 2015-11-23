@@ -104,7 +104,7 @@
                         <ul class="nav navbar-nav">
                             <li class="active"><a href="index.php">Home</a></li>
                             <li class="dropdown mega-menu">
-                            <a href="course_list.php" data-toggle="dropdown" class="dropdown-toggle">Courses <b class="fa fa-angle-down"></b></a>
+                            <a href="course_list.php" class="dropdown-toggle">Courses <b class="fa fa-angle-down"></b></a>
                                 <ul class="dropdown-menu">
                                     <li>
                                         <div class="mega-menu-content">
@@ -112,25 +112,22 @@
                                                 <div class="col-md-6">
                                                     <div class="box">
                                                         <ul>
-                                                            <li class="title"><h4>Web Design & Development</h4></li>
-                                                            <li><a href="course_list.php">PHP</a></li>
-                                                            <li><a href="course-grid.html">Courses Grid</a></li>
-                                                            <li><a href="course-filterable.html">Courses Filterable</a></li>
-                                                            <li><a href="course_details.php">Course Details</a></li>
-                                                            <li><a href="course-quiz.html">Take a Quiz</a></li>
-                                                            <li><a href="course-achievements.html">Achievements</a></li>
+                                                            <!-- <li class="title"><h4>Web Design & Development</h4></li> -->
+                                                            <li><a href="course-instructors.html">Graphics Design</a></li>
+                                                            <li><a href="course_list.php">Web Design UX/UI</a></li>
+                                                            <li><a href="course-grid.html">Web Development with PHP/MySQL</a></li>
+                                                            <li><a href="course_details.php">Android Apps Development</a></li>
+                                                            <li><a href="course-achievements.html">Java SE</a></li>
                                                         </ul>
                                                     </div><!-- end box -->
                                                 </div><!-- end col -->
                                                 <div class="col-md-6">
                                                     <div class="box">
                                                         <ul>
-                                                            <li><a href="course-instructors.html">Course Instructors</a></li>
-                                                            <li><a href="forums.html">Community Forums</a></li>
-                                                            <li><a href="course-login.html">Login &amp; Register</a></li>
-                                                            <li><a href="course-account.html">Edit Your Account</a></li>
-                                                            <li><a href="course-testimonials.html">Happy Students</a></li>
-                                                            <li><a href="course-faqs.html">Friendly Asked Questions</a></li>
+                                                            <li><a href="course-quiz.html">Oracle Database</a></li>
+                                                            <li><a href="forums.html">Corporate Training</a></li>
+                                                            <li><a href="course-login.html">Computer Office and Fundamental</a></li>
+                                                            <li><a href="course-filterable.html">Search Engine Optimization</a></li>
                                                         </ul>
                                                     </div><!-- end box -->
                                                 </div><!-- end col -->
@@ -155,7 +152,7 @@
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Academics <b class="fa fa-angle-down"></b></a>
+                                <a href="academics.php" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Academics <b class="fa fa-angle-down"></b></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="#">Admission Process</a></li>
                                     <li><a href="#">Result Published</a></li>

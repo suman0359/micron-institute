@@ -31,7 +31,7 @@
                                 <h4>Welcome to Micron Training Institute</h4>
                                 <hr>
                             </div>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the, when an unknown printer took  industry. Lorem Ipsum has been the industry's standard dummy text ever since the, when an unknown printer took...</p>
+                            <p>“Micron Techno” is a well-established IT firm which has been working for 8 years and able to achieve the fame from renounce software companies. In this continuation, “Micron Techno Institute” starts their journey to built-up skilled IT professionals and a Bangladesh. The main goal of “Micron Techno Institute” is to teach IT courses to the youth of Bangladesh, removes ‍ unemployment and makes a self-reliant nation. The demand of IT sector increasing day by day and millions of students have earned degrees in IT. Besides academic knowledge, student doesn’t get enough facilities to work in practical fields in their educational institutes. As a result they cannot grow-up as an IT professional. Micron Techno Institute gives them this opportunity to the students to build up their career as IT professional and works in a practical field. Thus, Micro techno Institute have started training professionals and advanced courses for the students. </p>
 
                             <div class="row">
                                 <div class="col-md-6">
@@ -64,7 +64,7 @@
                     <div class="col-md-6">
                         <div class="content-widget">
                             <div class="widget-title">
-                                <h4>Why Choose Us</h4>
+                                <h4>Why You Choose Us</h4>
                                 <hr>
                             </div>
                             <div class="accordion-widget">
@@ -74,7 +74,7 @@
                                             <div class="panel-heading">
                                                 <div class="panel-title">
                                                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseFour">
-                                                        <h3>Why LearnPLUS ? <i class="indicator fa fa-plus"></i></h3>
+                                                        <h3>Why Micron Institute ? <i class="indicator fa fa-plus"></i></h3>
                                                     </a>
                                                 </div>
                                             </div>
@@ -88,7 +88,7 @@
                                             <div class="panel-heading">
                                                 <div class="panel-title">
                                                     <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapseFive" aria-expanded="false">
-                                                        <h3>What IS LearnPLUS ? <i class="indicator fa fa-plus"></i></h3>
+                                                        <h3>What IS Micron Institute ? <i class="indicator fa fa-plus"></i></h3>
                                                     </a>
                                                 </div>
                                             </div>
@@ -102,7 +102,7 @@
                                             <div class="panel-heading">
                                                 <div class="panel-title">
                                                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseSix">
-                                                        <h3>What is LearnPLUS Features ? <i class="indicator fa fa-plus"></i></h3>
+                                                        <h3>What is Micron Institute Features ? <i class="indicator fa fa-plus"></i></h3>
                                                     </a>
                                                 </div>
                                             </div>
