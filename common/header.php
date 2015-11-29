@@ -115,7 +115,7 @@
                                                             <!-- <li class="title"><h4>Web Design & Development</h4></li> -->
                                                             <li><a href="course-instructors.html">Graphics Design</a></li>
                                                             <li><a href="course_list.php">Web Design UX/UI</a></li>
-                                                            <li><a href="course-grid.html">Web Development with PHP/MySQL</a></li>
+                                                            <li><a href="course_details.php">Web Development with PHP/MySQL</a></li>
                                                             <li><a href="course_details.php">Android Apps Development</a></li>
                                                             <li><a href="course-achievements.html">Java SE</a></li>
                                                         </ul>
