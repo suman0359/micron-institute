@@ -3,7 +3,7 @@
         <div class="featured_header">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 text-center">
+                    <div class="col-md-4 grid text-center">
                         <a href="#" class="sc_icon icon-woman-2 sc_icon_bg_menu menu_dark_color font_5em lh_1em"></a>
                         <div class="sc_section font-w_400 margin_top_1em_imp">
                             <p>
@@ -12,14 +12,14 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-4 text-center">
+                    <div class="col-md-4 grid text-center">
                         <a href="#" class="sc_icon icon-rocket-2 sc_icon_bg_menu menu_dark_color font_5em lh_1em"></a>
                         <p>
                             <a class="menu_color" href="#">Earn certificates<br>
                             recognized by Industry</a>
                         </p>
                     </div>
-                    <div class="col-md-4 text-center">
+                    <div class="col-md-4 grid text-center">
                         <a href="#" class="sc_icon icon-world-2 sc_icon_bg_menu menu_dark_color font_5em lh_1em"></a>
                         <p>
                             <a class="menu_color" href="#">Build cool projects<br>
