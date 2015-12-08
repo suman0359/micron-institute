@@ -179,6 +179,65 @@ div.box ul li h4{
     box-shadow: 0 2px 5px rgba(50,50,50,.4);
 }
 
+/* Featured Course */
+
+.featured_course{
+    width: 1000px;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.course_header h2{
+    font-size: 3em;
+    font-family: inherit;
+}
+
+
+.course_grid .post_content{
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.course_grid .post_content .post_info_wrap{
+    # display: none;
+    position: absolute; 
+    top: 0px;
+    border-radius: 10px;
+}
+
+.course_grid .post_content:hover .post_info_wrap{
+    display: block;
+    position: absolute; 
+    top: 0px;
+}
+
+.post_content .info {
+    background-color: #1eaace;
+    z-index: 100;
+}
+
+.isotope_item_courses .post_featured .post_title, .isotope_item_courses .post_content.ih-item.square.colored .info {
+    color: #ffffff;
+    background-color: #1eaace;
+}
+
+.post_featured.img a img{
+    width: 100%;
+}
+
+.post_featured .post_title{
+    background-color: #1eaace;
+    padding: 10px;
+    line-height: 1.15em;
+}
+
+.post_featured .post_title h4{
+    font-size: 26px;
+}
+
+/* -------------------------- */
+
 /* Why Choose Micron */
 #micron_speciality{
     background: #303030;
@@ -319,7 +378,8 @@ ul.nav.nav-tabs{
 }
 
 .featured_header .grid{
-    margin-top: 20px;
+    margin-top: 4em;
+    margin-bottom: 4em;
 }
 
 /* Owl Carousol */

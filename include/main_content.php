@@ -29,6 +29,142 @@
                 </div>
             </div>
         </div>
+    <div class="featured_course">
+        <div class="">
+            <div class="course_header text-center">
+                <h2 style="">Courses Starting Soon</h2>
+            </div>
+
+            <div class="course_grid">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="post_content isotope_item_content ih-item colored square effect_dir left_to_right inited">
+                            <div class="post_featured img">
+                                <a href="paid-course.html">
+                                    <img alt="Principles of Written English, Part 2" src="images/courses/masonry_15-400x400.jpg">
+                                </a>
+                                <h4 class="post_title">
+                                    <a href="paid-course.html">Principles of Written English, Part 2</a>
+                                </h4>
+                                <div class="post_descr">
+                                    <div class="post_price">
+                                        <span class="post_price_value">$85</span>
+                                        <span class="post_price_period">monthly</span>
+                                    </div>
+                                    <div class="post_category">
+                                        <a href="product-category.html">Language</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post_info_wrap info">
+                                <div class="info-back">
+                                    <h4 class="post_title">
+                                        <a href="paid-course.html">Principles of Written English, Part 2</a>
+                                    </h4>
+                                    <div class="post_descr">
+                                        <p>
+                                            <a href="paid-course.html">Nam id leo massa. Cras at condimentum nisi, vulputate ultrices turpis.</a>
+                                        </p>
+                                        <div class="post_buttons">
+                                            <div class="post_button">
+                                                <a href="paid-course.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">LEARN MORE</a>
+                                            </div>
+                                            <div class="post_button">
+                                                <a href="product-page.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">BUY NOW</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                         <div class="post_content isotope_item_content ih-item colored square effect_dir left_to_right inited">
+                            <div class="post_featured img">
+                                <a href="paid-course.html">
+                                    <img alt="Principles of Written English, Part 2" src="images/courses/masonry_15-400x400.jpg">
+                                </a>
+                                <h4 class="post_title">
+                                    <a href="paid-course.html">Principles of Written English, Part 2</a>
+                                </h4>
+                                <div class="post_descr">
+                                    <div class="post_price">
+                                        <span class="post_price_value">$85</span>
+                                        <span class="post_price_period">monthly</span>
+                                    </div>
+                                    <div class="post_category">
+                                        <a href="product-category.html">Language</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post_info_wrap info">
+                                <div class="info-back">
+                                    <h4 class="post_title">
+                                        <a href="paid-course.html">Principles of Written English, Part 2</a>
+                                    </h4>
+                                    <div class="post_descr">
+                                        <p>
+                                            <a href="paid-course.html">Nam id leo massa. Cras at condimentum nisi, vulputate ultrices turpis.</a>
+                                        </p>
+                                        <div class="post_buttons">
+                                            <div class="post_button">
+                                                <a href="paid-course.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">LEARN MORE</a>
+                                            </div>
+                                            <div class="post_button">
+                                                <a href="product-page.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">BUY NOW</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                         <div class="post_content isotope_item_content ih-item colored square effect_dir left_to_right inited">
+                            <div class="post_featured img">
+                                <a href="paid-course.html">
+                                    <img alt="Principles of Written English, Part 2" src="images/courses/masonry_15-400x400.jpg">
+                                </a>
+                                <h4 class="post_title">
+                                    <a href="paid-course.html">Principles of Written English, Part 2</a>
+                                </h4>
+                                <div class="post_descr">
+                                    <div class="post_price">
+                                        <span class="post_price_value">$85</span>
+                                        <span class="post_price_period">monthly</span>
+                                    </div>
+                                    <div class="post_category">
+                                        <a href="product-category.html">Language</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post_info_wrap info">
+                                <div class="info-back">
+                                    <h4 class="post_title">
+                                        <a href="paid-course.html">Principles of Written English, Part 2</a>
+                                    </h4>
+                                    <div class="post_descr">
+                                        <p>
+                                            <a href="paid-course.html">Nam id leo massa. Cras at condimentum nisi, vulputate ultrices turpis.</a>
+                                        </p>
+                                        <div class="post_buttons">
+                                            <div class="post_button">
+                                                <a href="paid-course.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">LEARN MORE</a>
+                                            </div>
+                                            <div class="post_button">
+                                                <a href="product-page.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">BUY NOW</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     </div>
 </section>
 
